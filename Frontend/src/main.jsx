@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom'
 import {Provider} from "react-redux"
 import { store } from './redux/store.js'
 
-export const serverUrl= "https://realtimechatapp-backend-wspm.onrender.com";
+export const serverUrl= "https://dochat-backend-oqqg.onrender.com";
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
